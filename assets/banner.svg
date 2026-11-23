@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/><stop offset=".6" stop-color="#121a33"/><stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".85" cy=".2" r=".5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".35"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#glow)"/>
+  <rect x="64" y="70" width="64" height="6" rx="3" fill="#7c5cff"/>
+  <text x="64" y="140" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="52" font-weight="700" fill="#e8ecf4">Roger Macedo da Silva</text>
+  <text x="64" y="186" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="24" fill="#b9c2d6">Infrastructure Engineer → Platform / DevOps</text>
+  <text x="64" y="236" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="18" letter-spacing="2" fill="#7c5cff">LINUX · STORAGE · TERRAFORM · ANSIBLE · AWS · KUBERNETES · OBSERVABILITY</text>
+  <g font-family="ui-monospace,Consolas,monospace" font-size="15" fill="#8b95ab">
+    <text x="900" y="120">$ terraform apply</text>
+    <text x="900" y="146" fill="#3fb950">✓ infra provisioned</text>
+    <text x="900" y="172">$ ansible-playbook site.yml</text>
+    <text x="900" y="198" fill="#3fb950">✓ changed=0 failed=0</text>
+  </g>
+</svg>
